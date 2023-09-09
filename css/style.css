@@ -7,15 +7,16 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 30px;
+    height: 40px;
     padding: 0 30px;
     margin: 10px 5px;
 }
 
 .header__ttl--link img {
-    width: 100px;
+    width: 150px;
     max-width: 100%;
-    height: 25px;
+    height: 35px;
+    display: block;
 }
 
 .header__nav--list {
@@ -25,7 +26,7 @@ body {
 
 .header__nav--item {
     list-style: none;
-    font-size: 0.7em;
+    font-size: 1.2vw;
 }
 
 .header__nav--item:not(:last-of-type) {
@@ -95,14 +96,14 @@ body {
 .news__ttl {
     color: #686868;
     margin: 10px 0 30px;
-    font-size: 1.3em;
+    font-size: 1.5vw;
 }
 
 .news__content {
     border-top: solid 2px #aeaeae;
     border-bottom: solid 2px #aeaeae;
     padding: 20px 0;
-    font-size: 0.8em;
+    font-size: 1.1vw;
 }
 
 .news__list {
@@ -110,12 +111,12 @@ body {
     align-items: center;
     border-bottom: 1px solid rgb(210, 210, 210);
     color: #838383;
-    height: 35px;
+    height: 3.5vw;
     margin: 5px 0;
 }
 
 .news__date {
-    margin-right: 20px;
+    margin-right: 50px;
 }
 
 .news__category {
@@ -123,9 +124,9 @@ body {
     font-size: 1em;
     background-color: #a9067e;
     border-radius: 20px 20px 20px 20px;
-    min-width: 70px;
-    height: 15px;
-    margin-right: 20px;
+    width: 12%;
+    height: 1.5vw;
+    margin-right: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -144,7 +145,7 @@ body {
     justify-content: center;
     color: #686868;
     margin: 10px 0 40px;
-    font-size: 1em;
+    font-size: 1.7vw;
 }
 
 .inner__back--gray {
@@ -164,13 +165,12 @@ body {
 
 .inner__text {
     color: #838383;
-    font-size: 0.7em;
+    font-size: 1.2vw;
     line-height: 170%;
 }
 
 .inner__img {
-    width: 280px;
-    max-width: 100%;
+    width: 40%;
     height: auto;
 }
 
@@ -187,19 +187,19 @@ body {
 
 .service__ttl {
     color: #686868;
-    margin: 10px 0 30px;
-    font-size: 1.2em;
+    margin: 10px 0 40px;
+    font-size: 1.7vw;
 }
 
 .service__content {
     display: grid;
-    grid-template-rows: 150px 150px;
+    grid-template-rows: 200px 200px;
     grid-template-columns: 1fr 1fr;
     width: 100%;
 }
 
 .service__img {
-    width: 100px;
+    width: 150px;
     max-width: 100%;
 }
 
@@ -218,14 +218,14 @@ body {
 }
 
 .service__text--item1 p {
-    margin: 5px 40px;
-    font-size: 0.7em;
-    line-height: 20px;
+    margin: 5px 50px;
+    font-size: 1.2vw;
+    line-height: 150%;
 }
 
 .service__text--item1 h3 {
     text-align: center;
-    font-size: 0.8em;
+    font-size: 1.4vw;
 }
 
 .service__back2 {
